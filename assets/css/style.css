@@ -43,7 +43,7 @@
   align-items: center;
   color: #00608d;
   text-align: center;
-  font-size: 62px;
+  font-size: clamp(007px, 5vw, 62px);
 }
 /* Home */
 
@@ -53,7 +53,7 @@ section#especialidades {
 #especialidades h2 {
   color: #13a89e;
   text-align: center;
-  font-size: clamp(007px, 3.8vw, 42px);
+  font-size: clamp(007px, 7vw, 42px);
   margin-bottom: 50px;
 }
 #especialidades .especialidades-cards {
@@ -92,7 +92,7 @@ section#especialidades {
 #qualidades h2 {
   color: #00608d;
   text-align: center;
-  font-size: clamp(007px, 3.8vw, 42px);
+  font-size: clamp(007px, 6vw, 42px);
   margin-bottom: 50px;
 }
 
@@ -144,7 +144,7 @@ section#especialidades {
   top: 20%;
 }
 .list-services li {
-  font-size: 28px;
+  font-size: clamp(0007px, 3vw, 28px);
   color: #00608d;
   position: relative;
   margin: 10px 0;
