@@ -9,6 +9,41 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+ 
+  .main-menu .menu-list {
+    display: none;
+  }
+ 
+  .main-menu .menu-list {
+    flex-direction: column;
+    position: absolute;
+    background: #00608dfa;
+    width: 60%;
+    height: 100vh;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+  } 
+  .main-menu .menu-list li{
+    padding-top: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 30px;
+    width: 55%;
+  }
+
+
+  .menu-list .list-hamburguer {
+    margin-left: auto;
+  }
+  .hamburguer {
+    margin-left: auto;
+  }
   .especialidades-cards .card p {
     width: auto;
   }
