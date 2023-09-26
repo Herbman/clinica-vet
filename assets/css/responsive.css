@@ -1,20 +1,81 @@
-@media screen and (max-width: 768px){
-  .especialidades-cards .card p{
+@media screen and (max-width: 1200px) {
+  .img-services img {
+    width: 80%;
+  }
+  .title-page {
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .especialidades-cards .card p {
     width: auto;
   }
-  .qualidades-grid{
+  .qualidades-grid {
     grid-template-columns: auto auto;
   }
-  .footer .container{
+  .footer .container {
     flex-direction: column-reverse;
     gap: 20px;
   }
-}
-
-@media screen and (max-width: 600px){
-  #especialidades .card{
-    width: 100%;
+  .footer .footer-links li {
+    padding: 3px 0;
   }
 
-  
+  .content-services {
+    display: flex;
+    justify-content: center;
+  }
+  .content-services .container {
+    margin: 30px 0;
+  }
+
+  .img-services {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contato-content {
+    flex-direction: column;
+  }
+  .contato-text {
+    width: auto;
+  }
+  .contato-content .form {
+    width: auto;
+    margin-top: 50px;
+  }
+  .contato-content .form input[type="text"],
+  .contato-content .form input[type="email"] {
+    width: 91%;
+  }
+  textarea {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section#especialidades,
+  #qualidades {
+    padding: 50px 0;
+  }
+  #especialidades .card {
+    width: 100%;
+  }
+  #especialidades h2,
+  #qualidades h2 {
+    margin-bottom: 20px;
+  }
+
+  .content-services:nth-child(even) > .container,
+  .content-services .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .qualidades-grid {
+    grid-template-columns: auto;
+  }
 }
