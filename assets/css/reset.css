@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1240px;
+  width: 90%;
+  margin: 0 auto;
+}
