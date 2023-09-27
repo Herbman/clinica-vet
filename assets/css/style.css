@@ -1,6 +1,7 @@
 /* Header */
 .top-menu .logo img {
-  max-width: 120px;
+  max-width: 110px;
+  padding: 10px 0;
   width: 100%;
 }
 .top-menu .container {
@@ -34,6 +35,10 @@
 }
 .main-menu .menu-item a:hover {
   text-decoration: underline;
+}
+#banner img{
+  height: 450px;
+  object-fit: cover;
 }
 .title-page {
   background-image: url("../img/title-page.webp");

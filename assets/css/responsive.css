@@ -12,11 +12,11 @@
   .mobile {
     display: block;
   }
- 
+
   .main-menu .menu-list {
     display: none;
   }
- 
+
   .main-menu .menu-list {
     flex-direction: column;
     position: absolute;
@@ -29,17 +29,19 @@
     position: fixed;
     top: 0;
     left: 0;
-  } 
-  .main-menu .menu-list li{
+  }
+  .main-menu .menu-list li {
     padding-top: 50px;
     border-bottom: 1px solid #ccc;
     margin-left: 30px;
     width: 55%;
   }
 
-
   .menu-list .list-hamburguer {
     margin-left: auto;
+  }
+  .top-menu .logo img {
+    max-width: 90px;
   }
   .hamburguer {
     margin-left: auto;
@@ -91,6 +93,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  #banner img {
+    height: 270px;
+  }
   section#especialidades,
   #qualidades {
     padding: 50px 0;
